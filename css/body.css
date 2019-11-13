@@ -1,0 +1,78 @@
+
+/*html and body*/
+
+html, body{
+  max-width:100%;
+  overflow-x:hidden;
+  min-height: 100%;
+}
+
+body{
+  margin:0;
+}
+
+.container{
+  margin:auto;
+}
+
+.img-header{
+  width:auto;
+  margin:5px;
+  height:650px;
+  background-image: url('../img/full5.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+ }
+
+.im-features{
+text-align: center;
+color:#00ccff;
+}
+
+.features{
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.items{
+  margin:25px;
+}
+
+.my_cv{
+
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+
+article{
+width: 50%;
+min-width:400px;
+margin:25px;
+text-align:justify;
+}
+
+.my-image img{
+margin:auto;
+display: inline-block;
+margin-top:5px;
+}
+
+.my_cv p{
+font-size: 1.5em;
+margin-left: 20px;
+width: 70%;
+}
+
+/*End Body*/
+
+
+/*Article*/
+

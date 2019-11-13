@@ -1,0 +1,27 @@
+/* Start Footer Design */
+
+.footer-site{
+display: flex;
+justify-content: space-between;
+width:80%;
+margin:auto;
+}
+
+footer{
+  margin-top: 5px;
+  width: 100%;
+  height: 90px;
+  background-color: #cccaaa;
+  overflow: hidden;
+  color:#4c7091;
+
+}
+
+.fab{
+  margin-top:5px;
+  margin-left:15px;
+  font-size: 25px;
+  padding:5px;
+}
+
+/* End Footer Design */

@@ -1,0 +1,76 @@
+
+/* header and menu */
+
+.page_header{
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+
+ 
+}
+
+a {
+  color: red;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a.active-item {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+a:hover {
+
+  background:#7d97ad;
+  color: #fff;
+  transition: ease 0.3s all;
+}
+
+
+#navlist{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  float:left;
+  position: fixed;
+
+  
+ 
+ 
+}
+
+nav li{
+  display: inline-block;
+  text-decoration:none;
+  padding:10px;
+  flex-wrap: wrap;
+  
+}
+
+nav a{
+text-decoration: none;
+font-size:25px;
+
+}
+
+
+.my_name h1{
+
+float:right;
+color:#00ccff;
+
+
+}
+
+
+hr{
+  border-bottom: 3px solid #7d97ad;
+  width:95%;
+  margin-top:10px;
+}
+
+/*end header and menu*/
+

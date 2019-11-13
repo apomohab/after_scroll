@@ -1,0 +1,120 @@
+
+/* start media design for home page */
+
+@media screen and(max-width:1148px){
+.my_cv{
+min-width:320px;
+width:80%;
+margin:auto;
+}
+
+}
+
+@media screen and (max-width:700px){
+.img-header{
+display: flex;
+}
+
+article{
+
+    margin-right:-35px;
+}
+
+    }
+
+@media screen and (min-width:768px){    
+
+
+    .item img{
+
+      
+    width: 90%;
+       
+        }
+
+    .item{
+
+        font-weight: bold;
+    }    
+
+}    
+
+
+/* End Media Design for home page*/
+
+
+/* Start media dfor Certificate page */
+
+@media(max-width:1200px){
+
+
+
+footer{
+
+    height:150px;
+
+}
+
+.fab{
+
+margin-left:60px;
+padding:0px;
+margin-top:15px;
+
+}
+
+
+ ul{
+
+margin-left:-20px;
+
+    }
+
+}
+
+
+
+@media(max-width:700px){
+
+.img-certificate img{
+    padding: 0;
+    margin:0;
+  }
+
+
+ .certificate p{
+
+    margin-right:25px;
+    }
+
+
+ ul{
+
+    padding:0px;
+    margin:0;
+
+  }
+
+
+  li a{
+    font-size:20px;
+   }
+
+}
+
+@media(max-width:320px){
+
+
+li a{
+   font-size:20px;
+  }
+
+
+.certificate p{
+
+    margin-right:25px;
+
+    }
+  }
+
+  /*End  media for certificate page*/
